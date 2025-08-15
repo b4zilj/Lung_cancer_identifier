@@ -1,0 +1,9 @@
+stages:
+  prepare:
+    cmd: python -m src.prepare --raw ${raw_dir} --out data/interim --params params.yaml
+    deps:
+      - src/prepare.py
+      - ${raw_dir}
+      - params.yaml
+    outs:
+      - data/interim

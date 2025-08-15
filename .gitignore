@@ -1,0 +1,26 @@
+# Python
+_pycache_/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+env/
+
+# MLflow artifacts
+mlruns/
+
+# DVC cache
+.cache/
+*.dvc
+
+# Dataset
+data/raw/
+data/interim/
+data/processed/
+
+# OS files
+.DS_Store
+Thumbs.db
