@@ -12,10 +12,6 @@ env/
 # MLflow artifacts
 mlruns/
 
-# DVC cache
-.cache/
-*.dvc
-
 # Dataset
 data/raw/
 data/interim/
